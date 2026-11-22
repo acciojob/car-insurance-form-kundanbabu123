@@ -1,2 +1,98 @@
 
 /* Your CSS Code here. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #dbeafe, #eff6ff);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    width: 100%;
+    max-width: 450px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.12);
+}
+
+h1 {
+    text-align: center;
+    color: #1d4ed8;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    outline: none;
+    font-size: 15px;
+}
+
+input:focus, select:focus {
+    border-color: #2563eb;
+}
+
+.gender {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 18px;
+}
+
+.gender input {
+    width: auto;
+    margin: 0;
+}
+
+.gender label {
+    margin: 0 15px 0 0;
+    font-weight: normal;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1e40af;
+}
+
+#message {
+    margin-top: 18px;
+    color: green;
+    font-weight: bold;
+}
